@@ -1,11 +1,30 @@
 img {
-  width: 400px;
+  width: 100%;
   height: auto;
+}
+
+
+body {
+  background-image: radial-gradient(brown, tomato, goldenrod);
+}
+
+.title-head {
+  text-align: center;
+}
+
+.title-head h3 {
+  width: 25%;
+  margin: auto;
 }
 
 .column {
   float: left;
   width: 30%;
+  margin-left: 20px;
+  border: 10px solid peachpuff;
+  padding: 20px;
+  box-sizing: border-box;
+  background-image: linear-gradient(260deg, yellow, orange );
 }
 
 .column p {
@@ -15,9 +34,7 @@ img {
 .column h4 {
   font-family: fantasy;
   color: blue;
-  font-weight: 30;
 }
 
-body {
-  background-image: radial-gradient(brown, tomato, goldenrod)
-}
+
+
