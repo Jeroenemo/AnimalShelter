@@ -1,0 +1,23 @@
+img {
+  width: 400px;
+  height: auto;
+}
+
+.column {
+  float: left;
+  width: 30%;
+}
+
+.column p {
+  float: right;
+}
+
+.column h4 {
+  font-family: fantasy;
+  color: blue;
+  font-weight: 30;
+}
+
+body {
+  background-image: radial-gradient(brown, tomato, goldenrod)
+}
